@@ -10,7 +10,7 @@ import org.icepdf.core.util.GraphicsRenderingHints;
 
 public class PdfImgUtil {
 	public static void main(String[] args) {
-		String filePath = "E:\\11.pdf";
+		String filePath = "E:\\test.pdf";
 		Document document = new Document();
 		try {
 			document.setFile(filePath);
@@ -19,7 +19,7 @@ public class PdfImgUtil {
 			for (int i = 0; i < document.getNumberOfPages(); i++) {
 				BufferedImage image = (BufferedImage) document.getPageImage(i, GraphicsRenderingHints.SCREEN, Page.BOUNDARY_CROPBOX, rotation, scale);
 				RenderedImage rendImage = image;
-				File file = new File("E:/test2/专项规划_" + i + ".jpg");
+				File file = new File("E:/test/test_" + i + ".jpg");
 				// 这里png作用是：格式是jpg但有png清晰度
 				ImageIO.write(rendImage, "png", file);
 				image.flush();
