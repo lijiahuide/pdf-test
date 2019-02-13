@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/bcpkix-jdk15on-1.57.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-ext-jdk15on-1.57.jar"/>
+	<classpathentry kind="lib" path="lib/bcprov-jdk15on-1.57.jar"/>
+	<classpathentry kind="lib" path="lib/common-image-3.4-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/common-io-3.4-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/common-lang-3.4-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-io-2.2.jar"/>
+	<classpathentry kind="lib" path="lib/commons-lang-2.6.jar"/>
+	<classpathentry kind="lib" path="lib/icepdf-core-6.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/icepdf-pro-6.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/icepdf-pro-intl-6.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/icepdf-viewer-6.3.0.jar"/>
+	<classpathentry kind="lib" path="lib/imageio-core-3.4-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/imageio-metadata-3.4-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/imageio-tiff-3.4-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/jbig2-imageio-3.0.0-r6.3.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.12.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.12.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.12.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.12.jar"/>
+	<classpathentry kind="lib" path="lib/xmlbeans-2.6.0.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

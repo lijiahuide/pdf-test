@@ -9,6 +9,7 @@ import org.icepdf.core.pobjects.Page;
 import org.icepdf.core.util.GraphicsRenderingHints;
 
 public class PdfImgUtil {
+	
 	public static void main(String[] args) {
 		String filePath = "E:\\test.pdf";
 		Document document = new Document();
